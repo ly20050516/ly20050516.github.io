@@ -11,7 +11,7 @@
     name: 'AppMain',
     computed: {
 
-    }
+    },
   }
 </script>
 

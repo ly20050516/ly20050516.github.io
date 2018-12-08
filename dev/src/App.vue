@@ -1,13 +1,19 @@
 <template>
     <div id="app">
+        <background style="position: absolute;top: 0;z-index: -1" class="background"></background>
         <router-view/>
     </div>
 </template>
 
 <script>
     import { mapGetters } from 'vuex'
+    import Background from './views/layout/components/canvas-background.vue'
+
     export default {
         name: 'App',
+      components: {
+        Background
+      },
         computed: {
             ...mapGetters([
                 'githubUsername',
