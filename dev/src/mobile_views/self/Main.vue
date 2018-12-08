@@ -22,10 +22,10 @@
             </van-col>
         </van-row>
 
-        <van-cell class="mobile-border mobile-margin-top" title="github.com/wxingheng" icon="sign" url="https://github.com/wxingheng/wxingheng.github.io"
+        <van-cell class="mobile-border mobile-margin-top" title="github.com/ly20050516" icon="sign" url="https://github.com/ly20050516/ly20050516.github.io"
             is-link />
 
-        <van-cell class="mobile-border mobile-margin-top" title="　项目源码" icon="logistics" url="https://github.com/wxingheng/wxingheng.github.io"
+        <van-cell class="mobile-border mobile-margin-top" title="　项目源码" icon="logistics" url="https://github.com/ly20050516/ly20050516.github.io"
             is-link />
 
         <van-cell class="mobile-border mobile-margin-top" title="　其他博客" icon="password-view" :url="blog" is-link />
