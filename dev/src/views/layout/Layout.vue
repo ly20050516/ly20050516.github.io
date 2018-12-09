@@ -79,7 +79,7 @@
       <a href="https://www.jianshu.com/u/7398ccc6f6e2" class="btn" target="_blank">我的简书</a>
     </section>
 
-    <section class="main-content" style="background-color: transparent">
+    <section class="main-content">
       <el-row>
         <el-col :span="4" style="padding-right:10px">
           <sidebar></sidebar>
@@ -323,7 +323,7 @@
     margin: 0 auto;
     font-size: 1.1rem;
     word-wrap: break-word;
-    background-color: #1e6bb8;
+    background-color: #000000;
   }
 
   .foot {
